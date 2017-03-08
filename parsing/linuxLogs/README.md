@@ -1,5 +1,6 @@
 # auth log parser to ARFF
 
+```shell
 usage: auth2arff.py [-h] [-f FILES [FILES ...]] [-d DEBUG] [-y YEAR]
 
 optional arguments:
@@ -10,3 +11,6 @@ optional arguments:
                         Prints errors and warnings parsing the file
   -y YEAR, --year YEAR  Since auth.log has no year in it, we want to add it
                         here
+```
+
+
