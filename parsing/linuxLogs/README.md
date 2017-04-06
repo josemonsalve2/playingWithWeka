@@ -15,4 +15,4 @@ optional arguments:
 
 To change date
 
-sed -i "s/date string/date date \"yyyy-MM-dd HH:mm:ss\"/g" *.arff
+sed -i "s/date string/date date \\"yyyy-MM-dd HH:mm:ss\\"/g" *.arff
