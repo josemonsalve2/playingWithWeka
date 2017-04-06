@@ -142,7 +142,7 @@ def parseFile(fileName,debug,log_year):
     #}
     ## dump the log if there is anything otherwhise mention that there is nothing to log
     if len(values_to_dump) != 0:
-        arff.dump(fileName+'.arff',values_to_dump,relation="authLogs",names=['date','host','service','service pid','ID','log type','messagetype','accept type', 'user', 'ip'])
+        arff.dump(fileName+'.arff',values_to_dump,relation="authLogs",names=['date','host','service','servicePid','ID','logType','messageType','acceptType', 'user', 'ip'])
     elif debug == "yes":
         print "[INFO] Nothing to log"
 
